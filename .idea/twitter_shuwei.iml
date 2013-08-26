@@ -24,6 +24,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rspec-expectations (v2.12.1, RVM: ruby-2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rspec-mocks (v2.12.2, RVM: ruby-2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="twitter_oauth (v0.4.94, RVM: ruby-2.0.0-p247) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="vcr (v2.5.0, RVM: ruby-2.0.0-p247) [gem]" level="application" />
   </component>
 </module>
 
