@@ -1,0 +1,65 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=fsw0723
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - twitter_oauth gem v0.4.94 (OAuth gem v0.4.7)
+      Accept:
+      - ! '*/*'
+      Authorization:
+      - OAuth oauth_consumer_key="kcK4sgEVaOkmpPogw5UwQ", oauth_nonce="2mVMcDcqJJ6XZGWb5Vt1m71JsPRgc55AOjwN8PIK0",
+        oauth_signature="181RpvjaYHtQ3H7iezcMmyrAcSQ%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1377485733", oauth_token="1672554398-m0VpYgcLfnrqz0CxdabdYMK8ow9TFlivT2pyL1f",
+        oauth_version="1.0"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Mon, 26 Aug 2013 02:55:35 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Mon, 26 Aug 2013 02:55:35 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tfe
+      Set-Cookie:
+      - guest_id=v1%3A137748573508765792; Domain=.twitter.com; Path=/; Expires=Wed,
+        26-Aug-2015 02:55:35 UTC
+      - lang=en
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write-directmessages
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '180'
+      X-Rate-Limit-Remaining:
+      - '171'
+      X-Rate-Limit-Reset:
+      - '1377485806'
+      X-Transaction:
+      - 265bab971622e799
+    body:
+      encoding: US-ASCII
+      string: ! '[]'
+    http_version: 
+  recorded_at: Mon, 26 Aug 2013 02:55:34 GMT
+recorded_with: VCR 2.5.0
